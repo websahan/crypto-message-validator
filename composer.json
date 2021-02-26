@@ -1,0 +1,33 @@
+{
+    "name": "websahan/crypto-message-validator",
+    "description": "A simple library for Bitcoin and Ethereum message validation",
+    "keywords": ["bitcoin", "ethereum", "address", "message", "signature", "validator"],
+    "type": "library",
+    "require": {
+        "simplito/elliptic-php": "^1.0",
+        "stephenhill/base58": "^1.1",
+        "bitwasp/bech32": "^0.0.1",
+        "kornrunner/keccak": "^1.1",
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "websahan",
+            "email": "websahan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SWT\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SWT\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
